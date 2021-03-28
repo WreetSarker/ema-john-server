@@ -66,4 +66,4 @@ app.get('/', (req, res) => {
     res.send('Hello from server')
 })
 
-app.listen(4000);
+app.listen(process.env.PORT || 4000);
